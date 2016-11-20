@@ -10,13 +10,17 @@ button {
     outline: none;
 }
 
-footer {
-    color: #ffffff;
+* {
+    text-decoration: none;
+}
+
+#footer {
+    color: #dedede;
     position: absolute;
     bottom: 0;
+    left: 10px;
     height: 40px;
-    margin-top: 40px;
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -40,19 +44,16 @@ hr {
     #snoo {
         width: 70px;
     }
-
     #wierd-reddit {
         padding-top: 20px;
         text-align: center;
         font-size: 20px;
     }
-
     #quotes {
-      height: 100px;
+        height: 100px;
     }
-
     hr {
-      width: 80px;
+        width: 80px;
     }
 }
 
@@ -155,11 +156,11 @@ hr {
     -moz-border-radius: 60px;
     border-radius: 60px;
     color: #ffffff;
-    background: transparent;
+    background: rgba(0, 0, 0, .5);
     font-size: 20px;
     font-weight: 900;
     padding: 13px 15px 13px 15px;
-    border: solid #ffffff 6px;
+    border: solid #000000 6px;
     text-decoration: none;
     pointer-events: none;
     cursor: default;
@@ -168,7 +169,11 @@ hr {
     -moz-transition: .5s;
     -webkit-transition: .5s;
     transition: .5s;
-    opacity: .7;
+    opacity: .5;
+}
+
+.btnoff img {
+    opacity: .5;
 }
 
 .btnon {
